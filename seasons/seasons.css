@@ -1,0 +1,176 @@
+body{
+	background-color:white;
+	font-family: gerogia;
+	background-image: url(the-bachelor-mansion-today.jpg);
+	background-repeat: repeat;
+	background-size: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+.spring nav, .spring footer {
+	background-color: pink;
+}
+
+.spring h1 {
+	color: pink;
+}
+
+.spring header img {
+	width:50%;
+}
+
+.spring nav, .spring section, .spring h1 {
+	text-align: center;
+}
+.spring {
+	background-color: #f7f7a8;
+}
+
+.winter nav, .winter footer {
+	background-color: blue;
+}
+.winter h1 {
+	color: blue;
+}
+
+.winter header img{
+	width:50%;
+	align: center;
+}
+.winter nav, .winter section, .winter h1 {
+	text-align: center;
+}
+.winter{
+	background-color:#c6caf5;
+}
+
+.fall nav, .fall footer {
+	background-color: orange;
+}
+.fall h1 {
+	color: orange;
+}
+
+.fall header img {
+	width: 50%;
+}
+.fall nav, .fall section, .fall h1 {
+	text-align: center;
+}
+.fall{
+	background-color:#781919;
+}
+.summer nav, .summer footer {
+	background-color: red;
+}
+.summer h1 {
+	color: red;
+}
+
+.summer header img{
+	width: 50%;
+}
+.summer nav, .summer section, .summer h1 {
+	text-align: center;
+}
+.summer{
+	background-color:#0fdbd8;
+}
+.homepage nav, .homepage footer {
+	background-color: purple;
+}
+.homepage h1 {
+	color: black;
+}
+
+.homepage header img {
+	width: 50%;
+}
+.homepage nav, .homepage section, .homepage h1 {
+	text-align: center;
+}
+
+.homepage {
+	background-color:#e1c8f7;
+}
+
+#wrap{
+	width: 80%;
+	margin: 0 auto;
+	}
+	
+header img{ width:100%;
+			margin: 0 0 0 0;
+			padding: 0px;
+	
+
+}
+
+header{ 
+	background-color:white;
+	text-align: center;
+}
+
+nav{
+	background-color: #db1226;
+	padding: 20px;
+	text-align: center;
+}
+
+nav li {
+	display: inline;
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+nav a {
+	color: white;
+	padding: 20px;
+	margin-right: 10px;
+	font-family: verdana;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+nav a:hovor{
+	color:yellow;
+	text-decoration:underline;
+}
+
+section{
+	background-color: white;
+	padding: 30px;
+	text-align: left;
+	overflow: auto;
+}
+h1{
+	color: #db1226;
+	font-size: 30px;
+	
+}
+
+div.box {
+	width: 200px;
+	height: 200px;
+	background-color: orange;
+	border: 10px solid black;
+	padding: 10px;
+	margin: 10px;
+	
+}
+
+footer {
+	background-color: #db1226;
+	padding: 10px;
+	text-align: center;
+	color: white;
+}
+
+.officer{
+	width: 50%;
+	float: right;
+}
