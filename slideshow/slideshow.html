@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+	<link href="slideshow.css" rel="stylesheet" type="text/css">
+	
+</head>
+<body>
+	
+
+	<h2>Responsive navigation menu</h2>
+	<p>Resize the browser window to see the effect: When the screen is less than 600px, the navigation menu will be displayed vertically instead of horizontally.</p>
+	<nav>
+		<div class="topnav">
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Friends</a></li>
+				<li><a href="#">Family</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</div>
+	</nav>
+	
+	<section>
+	
+		<div id="main">
+		
+		   <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/corgi.jpg" data-thumb="images/corgi.jpg" alt="" />
+                <a href="http://dev7studios.com"><img src="images/bulldog.jpg" data-thumb="images/bulldog.jpg" alt="" title="This is an example of a caption" /></a>
+                <img src="images/doggies.jpg" data-thumb="images/doggies.jpg" alt="" data-transition="slideInLeft" />
+                <img src="images/happydog.jpg" data-thumb="images/happydog.jpg" alt="" title="#htmlcaption" />
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>. 
+            </div>
+        </div>
+		
+			<p>This is the main content.</p>
+			
+			<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla feugiat bibendum erat vel mollis. Vestibulum placerat magna et posuere porta. Praesent cursus augue consectetur ullamcorper dapibus. Praesent arcu erat, venenatis a efficitur nec, tempus eu odio. Nunc nisl sapien, congue at purus eget, dignissim molestie quam. Fusce sit amet ipsum in mauris aliquet mattis in sit amet nunc. Proin tempor ac est ut facilisis. Ut eget aliquam libero, accumsan bibendum tellus. Cras sit amet ornare massa. Ut nibh quam, aliquet volutpat ex eget, porta pharetra turpis. In id lacus eros. Curabitur mollis quam et nunc molestie, id viverra ex consequat.</p>
+
+			<p>Aenean porttitor scelerisque urna eget lacinia. Nunc ac nunc ac sapien cursus hendrerit. Cras porta velit nec mauris sagittis pellentesque. Aliquam eu scelerisque augue, non gravida turpis. Suspendisse euismod orci eu dui luctus vehicula. Nam tortor arcu, auctor sit amet sem a, laoreet finibus nisl. Donec at velit urna. Maecenas fringilla lacinia diam. Nunc lectus magna, molestie et tellus et, tristique lobortis nisl. Donec elementum sodales ultrices. Morbi placerat neque eu volutpat sollicitudin. Phasellus consequat a felis eu tristique. Nam porttitor tellus non erat elementum, eu dapibus mauris ornare. Proin ornare a felis et malesuada.</p>
+
+			<p>Nullam hendrerit consequat magna, eget sodales eros euismod feugiat. Nunc pulvinar tincidunt ante, ut iaculis lorem auctor in. Sed at commodo massa. Vestibulum congue, nibh porta hendrerit pulvinar, libero metus auctor ligula, sed finibus dui dui et metus. Nunc eleifend diam et tortor scelerisque porttitor. Phasellus fringilla odio in massa bibendum accumsan. Sed vitae nisl ligula. Integer quis nibh ut lorem malesuada ullamcorper.</p>
+			
+			<iframe width="560" height="315" src="https://www.youtube.com/embed/ZaSSm5JDu78" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			
+			</style><div class='embed-container'><iframe src='https://www.youtube.com/embed//cyzXgTaU3bo' frameborder='0' allowfullscreen></iframe></div>
+			
+			<blockquote class="twitter-tweet"><p lang="und" dir="ltr">🙃 <a href="https://t.co/hYwt5bmScJ">pic.twitter.com/hYwt5bmScJ</a></p>&mdash; Hugh Jackman (@RealHughJackman) <a href="https://twitter.com/RealHughJackman/status/1192075867737997312?ref_src=twsrc%5Etfw">November 6, 2019</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+			
+		</div>
+	
+		<div id="side">
+			<p>This is the side content.</p>
+			<p>This is the side content.</p>
+			<p>This is the side content.</p>
+			<p>This is the side content.</p>
+		</div>
+	
+	</section>
+
+<script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+
+</body>
+</html>
