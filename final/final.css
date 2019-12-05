@@ -1,0 +1,77 @@
+body {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+nav li {
+	display: inline;
+	padding: 5px;
+	margin: 0;
+	text-decoration: none;
+	font-family: 'Lora', serif;
+}
+nav {
+	background-color: #659DBD;
+	text-decoration: none;
+}
+
+iframe {
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+blockquote {
+	padding: 0;
+	margin: 0;
+	width: 30%;
+}
+slider {
+	padding: 0;
+	margin: 0;
+	width: 30%;
+}
+#wrap {
+	width: 50%;
+	margin: 0 auto;
+}
+footer {
+	background-color: #8D8741;
+	padding: 10px;
+	text-align: center;
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+}
+
+header {
+	background-color: #8D8741;
+	padding: 10px;
+	text-align: center;
+	color: black;
+}
+section {
+	background-color: #FBEEC1;
+}
+.homepage {
+	background-color: #BC986A;
+}
+.germany {
+	background-color: #BC986A;
+}
+.italy {
+	background-color: #BC986A;
+}
+.france {
+	background-color: #BC986A;
+}
+.kenya {
+	background-color: #BC986A;
+}
+header {
+	font-family: 'Montserrat', sans-serif;
+}
+
+p {
+	font-family: 'Lora', serif;
+}
